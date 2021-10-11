@@ -1,9 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication
-import sys
 
 from gui import MainWindow
-
 
 def run_app():
     """Main function."""
