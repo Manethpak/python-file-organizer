@@ -3,8 +3,8 @@ import shutil
 from directories import get_file_formats
 
 
-def organize(path):
-    directory = os.listdir(path)
+def organize(tar_path):
+    directory = os.listdir(tar_path)
     file_formats = get_file_formats()
     
     for file in directory:
